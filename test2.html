@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: blue;
+} 
+</style>
+</head>
+<body>
+
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">yellow and center-aligned heading</h1>
+<p class="center">yellow and center-aligned paragraph.</p> 
+
+</body>
+</html>
+
+<style>
+    p.center {
+      text-align: center;
+      color: red;
+    }
+    
+    p.large {
+      font-size: 200%;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h1 class="center">This heading will not be affected</h1>
+    <p class="center">This paragraph will be red and center-aligned.</p>
+    <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+    
+    </body>
+    </html>
+
+    <html>
+        <head>
+        <style>
+        h1, h2, p {
+          text-align: center;
+          color: red;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>Hello World!</h1>
+        <h2>Smaller heading!</h2>
+        <p>This is a paragraph.</p>
+        
+        </body>
+        </html>
+        
+        <html>
+            <body>
+            
+            <h1 style="background-color:Tomato;">Tomato</h1>
+            <h1 style="background-color:Orange;">Orange</h1>
+            <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+            <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+            <h1 style="background-color:Gray;">Gray</h1>
+            <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+            <h1 style="background-color:Violet;">Violet</h1>
+            <h1 style="background-color:LightGray;">LightGray</h1>
+            
+            </body>
+            </html>
+
+            <html>
+<body>
+
+<h1 style="background-color:SlateBlue;">Hello World</h1>
+
+<p style="background-color:Violet;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<h1 style="border: 2px solid Tomato;">Hello World</h1>
+
+<h1 style="border: 2px solid DodgerBlue;">Hello World</h1>
+
+<h1 style="border: 2px solid #f173f1;">Hello World</h1>
+
+</body>
+</html>
+
+<html>
+<body>
+
+<p>Same as color name "Tomato":</p>
+
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+<p>Same as color name "Tomato", but 50% transparent:</p>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+<p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<p>This page has a light blue background color!</p>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+div {
+  background-color: violet;
+}
+
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+
+<h1>Transparent Boxes</h1>
+
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>
+</div>
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+div {
+  background-color: violet;
+}
+
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}
+</style>
+</head>
+<body>
+
+<h1>Transparent Boxes</h1>
+
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>
+</div>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 140px;
+  margin-left: 80px;
+  background-color: violet;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual margin properties</h2>
+
+<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+div {
+  border: 1px solid black;
+  background-color: LightGray;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+</style>
+</head>
+<body>
+
+<h2>Using individual padding properties</h2>
+
+<div>This div element has a top padding of 40px, a right padding of 30px, a bottom padding of 30px, and a left padding of 50px.</div>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+</style>
+</head>
+<body>
+
+<h2>Center Text</h2>
+
+<div class="center">
+  <p>This text is centered.</p>
+</div>
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+</style>
+</head>
+<body>
+
+<h2>Overflow: visible</h2>
+
+<p>By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:</p>
+
+<div>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+</body>
+</html>
+
+
+<html>
+<head>
+<style>
+div {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+</style>
+</head>
+<body>
+
+<h2>Overflow: scroll</h2>
+
+<p>Setting the overflow value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it):</p>
+
+<div>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+</body>
+</html>
+
+<html>
+<head>
+<style>
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+</style>
+</head>
+<body>
+
+<h2>Overflow-x and overflow-y</h2>
+
+<p>You can also change the overflow of content horizontally or vertically.</p>
+<p>overflow-x specifies what to do with the left/right edges of the content.</p>
+<p>overflow-y specifies what to do with the top/bottom edges of the content.</p>
+
+<div>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+</body>
+</html>
+
+
+
+
